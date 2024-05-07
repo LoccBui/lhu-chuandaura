@@ -1,0 +1,14 @@
+html,
+body,
+#__nuxt {
+  min-height: 100vh;
+  height: 100%;
+}
+
+form {
+    @apply bg-gray-900/50 rounded-xl;
+    
+    .title {
+        @apply text-white text-xl;
+    }
+}

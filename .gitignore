@@ -1,0 +1,36 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+# Caveats
+!0.logrocket.client.ts
+
+# Unlighthouse
+.unlighthouse
+
+# Yarn (Zero-Installs)
+# see https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
+
+# Environment
+.env
+
+# WIP
+**/*.wip.*
+**/*.wip/
+
+# IDE
+.idea
